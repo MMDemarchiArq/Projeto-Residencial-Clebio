@@ -1,8 +1,8 @@
 var APP_DATA = {
   "scenes": [
     {
-      "id": "0-fachada",
-      "name": "Fachada",
+      "id": "0-entrada",
+      "name": "Entrada",
       "levels": [
         {
           "tileSize": 256,
@@ -24,22 +24,28 @@ var APP_DATA = {
       ],
       "faceSize": 2048,
       "initialViewParameters": {
-        "yaw": -1.5515706794232358,
-        "pitch": 0.15698711813558575,
+        "yaw": -1.4158219886833798,
+        "pitch": 0.1320321552681598,
         "fov": 1.1545084566471375
       },
       "linkHotspots": [
         {
-          "yaw": -1.3681754751021877,
-          "pitch": 0.3726889083471576,
+          "yaw": -1.6227601452963611,
+          "pitch": 0.2608939428542101,
           "rotation": 0,
-          "target": "21-garagem"
+          "target": "15-escada"
         },
         {
-          "yaw": -2.4265630261064004,
-          "pitch": 0.3137966467314328,
+          "yaw": -0.7353697412512741,
+          "pitch": 0.1953477609163592,
+          "rotation": 0,
+          "target": "20-fachada"
+        },
+        {
+          "yaw": -2.1143165661591468,
+          "pitch": 0.27806331497566283,
           "rotation": 4.71238898038469,
-          "target": "15-entrada"
+          "target": "22-jardim"
         }
       ],
       "infoHotspots": []
@@ -611,7 +617,7 @@ var APP_DATA = {
           "yaw": -2.237394358212903,
           "pitch": 0.07929525563677231,
           "rotation": 4.71238898038469,
-          "target": "20-espao-gourmet-vista-2"
+          "target": "19-espao-gourmet-vista-2"
         }
       ],
       "infoHotspots": []
@@ -673,57 +679,7 @@ var APP_DATA = {
       "infoHotspots": []
     },
     {
-      "id": "15-entrada",
-      "name": "Entrada",
-      "levels": [
-        {
-          "tileSize": 256,
-          "size": 256,
-          "fallbackOnly": true
-        },
-        {
-          "tileSize": 512,
-          "size": 512
-        },
-        {
-          "tileSize": 512,
-          "size": 1024
-        },
-        {
-          "tileSize": 512,
-          "size": 2048
-        }
-      ],
-      "faceSize": 2048,
-      "initialViewParameters": {
-        "yaw": -1.4158219886833798,
-        "pitch": 0.1320321552681598,
-        "fov": 1.1545084566471375
-      },
-      "linkHotspots": [
-        {
-          "yaw": -1.6227601452963611,
-          "pitch": 0.2608939428542101,
-          "rotation": 0,
-          "target": "16-escada"
-        },
-        {
-          "yaw": -0.7353697412512741,
-          "pitch": 0.1953477609163592,
-          "rotation": 0,
-          "target": "0-fachada"
-        },
-        {
-          "yaw": -2.1143165661591468,
-          "pitch": 0.27806331497566283,
-          "rotation": 4.71238898038469,
-          "target": "22-jardim"
-        }
-      ],
-      "infoHotspots": []
-    },
-    {
-      "id": "16-escada",
+      "id": "15-escada",
       "name": "Escada",
       "levels": [
         {
@@ -755,7 +711,7 @@ var APP_DATA = {
           "yaw": -1.3571983641963108,
           "pitch": 0.2017334296036708,
           "rotation": 0,
-          "target": "15-entrada"
+          "target": "0-entrada"
         },
         {
           "yaw": -1.307045071286666,
@@ -773,7 +729,7 @@ var APP_DATA = {
       "infoHotspots": []
     },
     {
-      "id": "17-escritrio-vista-1",
+      "id": "16-escritrio-vista-1",
       "name": "Escritório Vista 1",
       "levels": [
         {
@@ -811,13 +767,13 @@ var APP_DATA = {
           "yaw": -1.795084822824073,
           "pitch": 0.6951698300929703,
           "rotation": 3.141592653589793,
-          "target": "18-escritrio-vista-2"
+          "target": "17-escritrio-vista-2"
         }
       ],
       "infoHotspots": []
     },
     {
-      "id": "18-escritrio-vista-2",
+      "id": "17-escritrio-vista-2",
       "name": "Escritório Vista 2",
       "levels": [
         {
@@ -855,13 +811,13 @@ var APP_DATA = {
           "yaw": -1.5646520999072582,
           "pitch": 0.7035414363570673,
           "rotation": 8.63937979737193,
-          "target": "17-escritrio-vista-1"
+          "target": "16-escritrio-vista-1"
         }
       ],
       "infoHotspots": []
     },
     {
-      "id": "19-espao-gourmet-vista-1",
+      "id": "18-espao-gourmet-vista-1",
       "name": "Espaço Gourmet Vista 1",
       "levels": [
         {
@@ -905,13 +861,13 @@ var APP_DATA = {
           "yaw": -1.6239470338503796,
           "pitch": 0.19551572206769308,
           "rotation": 0,
-          "target": "20-espao-gourmet-vista-2"
+          "target": "19-espao-gourmet-vista-2"
         }
       ],
       "infoHotspots": []
     },
     {
-      "id": "20-espao-gourmet-vista-2",
+      "id": "19-espao-gourmet-vista-2",
       "name": "Espaço Gourmet Vista 2",
       "levels": [
         {
@@ -943,7 +899,7 @@ var APP_DATA = {
           "yaw": -2.3641166669859857,
           "pitch": 0.458257954217947,
           "rotation": 4.71238898038469,
-          "target": "19-espao-gourmet-vista-1"
+          "target": "18-espao-gourmet-vista-1"
         },
         {
           "yaw": -2.0348491449315933,
@@ -962,6 +918,50 @@ var APP_DATA = {
           "pitch": 0.08803533116282303,
           "rotation": 0,
           "target": "11-corredor-lateral-vista-2"
+        }
+      ],
+      "infoHotspots": []
+    },
+    {
+      "id": "20-fachada",
+      "name": "Fachada",
+      "levels": [
+        {
+          "tileSize": 256,
+          "size": 256,
+          "fallbackOnly": true
+        },
+        {
+          "tileSize": 512,
+          "size": 512
+        },
+        {
+          "tileSize": 512,
+          "size": 1024
+        },
+        {
+          "tileSize": 512,
+          "size": 2048
+        }
+      ],
+      "faceSize": 2048,
+      "initialViewParameters": {
+        "yaw": -1.5515706794232358,
+        "pitch": 0.15698711813558575,
+        "fov": 1.1545084566471375
+      },
+      "linkHotspots": [
+        {
+          "yaw": -1.3681754751021877,
+          "pitch": 0.3726889083471576,
+          "rotation": 0,
+          "target": "21-garagem"
+        },
+        {
+          "yaw": -2.4265630261064004,
+          "pitch": 0.3137966467314328,
+          "rotation": 4.71238898038469,
+          "target": "0-entrada"
         }
       ],
       "infoHotspots": []
@@ -999,7 +999,7 @@ var APP_DATA = {
           "yaw": -2.437044056608574,
           "pitch": 0.18068064490771185,
           "rotation": 4.71238898038469,
-          "target": "0-fachada"
+          "target": "20-fachada"
         },
         {
           "yaw": -2.053388696388943,
@@ -1011,7 +1011,7 @@ var APP_DATA = {
           "yaw": -1.2406816228318593,
           "pitch": 0.3552685188787734,
           "rotation": 1.5707963267948966,
-          "target": "19-espao-gourmet-vista-1"
+          "target": "18-espao-gourmet-vista-1"
         }
       ],
       "infoHotspots": []
@@ -1049,7 +1049,7 @@ var APP_DATA = {
           "yaw": -0.9997278906700977,
           "pitch": 0.3012606773613804,
           "rotation": 1.5707963267948966,
-          "target": "15-entrada"
+          "target": "0-entrada"
         },
         {
           "yaw": -2.021229048987495,
@@ -1093,7 +1093,7 @@ var APP_DATA = {
           "yaw": -0.9018921956553765,
           "pitch": 0.10638640651915843,
           "rotation": 1.5707963267948966,
-          "target": "19-espao-gourmet-vista-1"
+          "target": "18-espao-gourmet-vista-1"
         }
       ],
       "infoHotspots": []
@@ -1181,7 +1181,7 @@ var APP_DATA = {
           "yaw": -1.6112837664223036,
           "pitch": 0.7112416733626397,
           "rotation": 3.141592653589793,
-          "target": "16-escada"
+          "target": "15-escada"
         }
       ],
       "infoHotspots": []
@@ -1451,7 +1451,7 @@ var APP_DATA = {
           "yaw": -2.1848720703451505,
           "pitch": 0.126806855236282,
           "rotation": 4.71238898038469,
-          "target": "15-entrada"
+          "target": "0-entrada"
         },
         {
           "yaw": -1.9759751090574937,
@@ -1507,7 +1507,7 @@ var APP_DATA = {
           "yaw": -1.7769529517076421,
           "pitch": 0.10959855890730807,
           "rotation": 4.71238898038469,
-          "target": "17-escritrio-vista-1"
+          "target": "16-escritrio-vista-1"
         },
         {
           "yaw": -0.8254469517395417,
@@ -1563,7 +1563,7 @@ var APP_DATA = {
           "yaw": -1.9213719724284477,
           "pitch": -0.15534451413549988,
           "rotation": 0,
-          "target": "16-escada"
+          "target": "15-escada"
         }
       ],
       "infoHotspots": []
